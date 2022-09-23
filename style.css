@@ -25,9 +25,11 @@ nav{
     padding-top: 1rem ;
 }
 ul{
+    list-style: none;
+}
+.container-1>ul{
     display: flex;
     flex-direction: row;
-    list-style: none;
     gap: 1.5rem;
     align-items: center;
 }
@@ -45,7 +47,7 @@ li>a{
     border-radius: 10px;
     text-decoration: none;
 }
-li:hover{
+.navbar>li:hover{
     border-bottom:2px groove black;
 }
 header{
@@ -93,5 +95,71 @@ p{
     position: relative;
     color: black;
     text-decoration: none;
+}
+main{
+    max-width: 700px;
+    padding-top: 150px;
+    margin: auto;
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    align-content: stretch;
+}
+h2{
+    margin-bottom: 3rem;
+}
+label{
+    padding-right: 3rem;
+}
+.colonna{
+    width: 250px;
+    /* dalevare */
+    padding-bottom: 1000px;
+}
+.tipo{
+    border:1px solid #DBDBDD;
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.offerta{
+    border:1px solid #DBDBDD;
+    padding: 1rem;
+}
+.dettagli{
+    color: grey;
+    padding-bottom: 3rem;
+}
+.offerta>ul{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.offerta>ul{
+    margin-bottom: 2.5rem;
+}
+.offerta>p{
+    margin-top: 1rem;
+}
+.offerta>hr{
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    margin:  2rem 0 2rem 0 ;
+    width: 40px;
+}
+.fa-check{
+    color: #0061FF;
+}
+section>ul li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 0 0 -15px;
+    color: #0061FF;
+}
+.dettagli-2>ul{
+    width: 180px;
+    margin: auto;
 
 }
