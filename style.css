@@ -97,7 +97,7 @@ p{
     text-decoration: none;
 }
 main{
-    max-width: 700px;
+    max-width: 900px;
     padding-top: 150px;
     margin: auto;
 }
@@ -107,6 +107,7 @@ main{
     justify-content: center;
     gap: 1rem;
     align-content: stretch;
+    flex-grow: 1 1 auto;
 }
 h2{
     margin-bottom: 3rem;
@@ -115,9 +116,7 @@ label{
     padding-right: 3rem;
 }
 .colonna{
-    width: 250px;
-    /* dalevare */
-    padding-bottom: 1000px;
+    width: 300px;
 }
 .tipo{
     border:1px solid #DBDBDD;
@@ -161,5 +160,11 @@ section>ul li:before {
 .dettagli-2>ul{
     width: 180px;
     margin: auto;
-
+}
+.special>li{
+    display: flex;
+    flex-direction: row;
+}
+.special>li>i{
+    margin-right: 10px;
 }
