@@ -15,6 +15,7 @@ nav{
     top: 0;
     width: 100%;
     z-index: 1;
+    border-bottom: 1px solid gray;
 }
 .container-1{
     max-width: 1200px;
@@ -59,7 +60,7 @@ header{
     max-width: 800px;
     margin: auto;
 }
-h1{
+.container-2>h1{
     font-size: 60px;
     font-weight: 900;
 }
@@ -204,4 +205,25 @@ section>ul li:before {
     border-radius: 10px;
     text-decoration: none;
     border: 1px solid gray;
+}
+.operazioni{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 2rem;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+.item-ope{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    flex-wrap: wrap;
+
+}
+.item-ope>img{
+    width: 70%;
+}
+h1>main{
+    padding: 400rem 0 2rem 0;
 }
