@@ -119,7 +119,8 @@ label{
     padding-right: 3rem;
 }
 .colonna{
-    max-width: 300px;
+    max-width: 285px;
+    min-width: 235px;
 }
 .tipo{
     border:1px solid #DBDBDD;
@@ -158,7 +159,7 @@ label{
 section>ul li:before {    
     font-family: 'FontAwesome';
     content: '\f00c';
-    margin:0 0 0 -15px;
+    margin:0 0 0 -30px;
     color: #0061FF;
 }
 .dettagli-2>ul{
@@ -226,4 +227,90 @@ section>ul li:before {
 }
 h1>main{
     padding: 400rem 0 2rem 0;
+}
+.team{
+    margin: 5rem 0;
+}
+.team>h1{
+    font-size: xx-large;
+    margin-bottom: 2rem;
+}
+.sponsor-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: auto;
+}
+.square-container {
+    position: relative;
+    width:calc(100% / 3);
+} 
+.square-container:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+} 
+.square{
+    position: absolute;
+    width:50%;
+} 
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+} 
+.sponsor {
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+}
+.green{
+    background-color: #A2D39B;
+}
+.brown{
+    background-color: #61082B;
+    right: 0;
+}
+.blue{
+    background-color: #0093CE;
+    bottom: 0;
+}
+.red{
+    background-color: #FF1C1C;
+    bottom: 0;
+    right: 0;
+}
+.sponsor path{
+    fill: #fff;
+}
+.center{
+    background-color: rgba(226, 226, 226, 0.471);
+    overflow-y: auto;
+    padding: 2rem;
+}
+.center>hr{
+    border: 1px solid gray;
+    background-color: gray;
+    margin:  3rem 0 3rem 0 ;
+    max-width: 30%;
+}
+.center>img{
+    width: 100%;
+}
+.red-b{
+    background-color: #D5001F;
+}
+.blue-b{
+    background-color: #B4D0E7;
+    right: 0;
+}
+.blue-c{
+    background-color: #0D2481;
+    bottom: 0;
+}
+.yellow{
+    background-color: #FFD830;
+    bottom: 0;
+    right: 0;
 }
