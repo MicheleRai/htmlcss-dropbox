@@ -200,9 +200,10 @@ section>ul li:before {
 .partner-p>h2{
     margin-bottom: 1rem;
 }
-.partner-p>a{
+.partner-p>a , .prova-link{
     padding: 0.3rem 0.7rem 0.3rem 0.7rem;
     color: black;
+    background-color: white;
     border-radius: 10px;
     text-decoration: none;
     border: 1px solid gray;
@@ -296,7 +297,7 @@ h1>main{
     max-width: 30%;
 }
 .center>img{
-    width: 100%;
+    width: 66%;
 }
 .red-b{
     background-color: #D5001F;
@@ -313,4 +314,21 @@ h1>main{
     background-color: #FFD830;
     bottom: 0;
     right: 0;
+}
+.prova-container{
+    background-color: #b4d0e7;
+    height: 35vh;
+    line-height: 35vh;
+}
+.prova{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#titolo-prova{
+    color: #61082B;
+    font-size: xx-large;
 }
