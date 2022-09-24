@@ -332,3 +332,12 @@ h1>main{
     color: #61082B;
     font-size: xx-large;
 }
+.faq{
+    max-width: 1000px;
+    margin: auto;
+    line-height: 7rem;
+}
+.faq>h3>i{
+    position: relative;
+    left: 200px;
+}
