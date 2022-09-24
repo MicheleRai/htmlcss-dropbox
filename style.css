@@ -333,11 +333,19 @@ h1>main{
     font-size: xx-large;
 }
 .faq{
-    max-width: 1000px;
+    max-width: 900px;
+    padding-top: 6rem;
     margin: auto;
     line-height: 7rem;
 }
-.faq>h3>i{
+.faq>h4>i{
     position: relative;
     left: 200px;
+}
+footer{
+    margin-top: 10rem;
+    background-color: black;
+    color: white;
+    /* da levare */
+    height: 300px;
 }
