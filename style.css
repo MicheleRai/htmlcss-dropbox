@@ -343,9 +343,38 @@ h1>main{
     left: 200px;
 }
 footer{
-    margin-top: 10rem;
+    margin-top: 8rem;
+    padding: 3rem 0;
     background-color: black;
     color: white;
-    /* da levare */
-    height: 300px;
+    
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    line-height: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-list-container{
+    margin-bottom: 3rem;
+}
+.footer-title{
+    margin-bottom: 2rem;
+}
+.footer-list-container>ul>li>a{
+    color: white;
+}
+.lingua-container{
+    color: lightgray;
+    max-width: 950px;
+    margin: auto;
+    line-height: 3rem;
+}
+footer>div>hr{
+    max-width: 15%;
+    background-color: lightgray;
+
 }
