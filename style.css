@@ -343,6 +343,15 @@ h1>main{
     position: relative;
     left: 200px;
 }
+.faq h4:hover + p {
+    display: block;
+}
+.faq p {
+    display: none;
+}
+.faq>p{
+    line-height: 1.5rem; 
+}
 footer{
     margin-top: 8rem;
     padding: 3rem 0;
